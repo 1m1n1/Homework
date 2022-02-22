@@ -15,7 +15,7 @@ public:
 		const char* _Text, 
 		const ConsoleVector& _Pos);
 
-	~ConsoleObject();
+	virtual ~ConsoleObject();
 
 	// delete Function
 	ConsoleObject(const ConsoleObject& _Other) = delete;

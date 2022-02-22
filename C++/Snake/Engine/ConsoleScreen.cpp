@@ -43,7 +43,6 @@ void ConsoleScreen::Destroy()
 	}
 }
 
-
 ConsoleScreen::ConsoleScreen() 
 	: PixelData_(nullptr)
 	, Size_(0, 0)

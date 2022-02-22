@@ -51,4 +51,5 @@ void Head::Update()
 void Head::OverLap(ConsoleObject* _Link)
 {
 	AllBody.push_back((Body*)_Link);
+	delete _Link;
 }
